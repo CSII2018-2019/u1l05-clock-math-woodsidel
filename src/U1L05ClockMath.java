@@ -21,7 +21,7 @@ public class U1L05ClockMath {
 		if(endHours<startHours) {
 			endHours += 12;
 		}
-		System.out.println("Hours: " + str(endHours-startHours)+"\n Minutes: " + str(endMinutes-startMinutes));
+		System.out.println("Hours: " + str(endHours-startHours)+"\nMinutes: " + str(endMinutes-startMinutes));
 		
 		
 		
