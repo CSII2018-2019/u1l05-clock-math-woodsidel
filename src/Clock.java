@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class U1L05ClockMath {
+public class Clock {
 	public static void main (String [] args){
 		//ask the user for a start time and duration
 		//give an ending time
