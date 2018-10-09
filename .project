@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>U1L05ClockMath</name>
+=======
+	<name>Clock</name>
+>>>>>>> branch 'master' of https://github.com/CSII2018-2019/u1l05-clock-math-woodsidel
 	<comment></comment>
 	<projects>
 	</projects>

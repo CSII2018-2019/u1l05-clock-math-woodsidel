@@ -6,6 +6,7 @@ public class Clock {
 		//give an ending time
 		
 		//get start time as a string
+<<<<<<< HEAD
 		String startTime = JOptionPane.showInputDialog(null, "Give me a start time (ex: 3:10)");
 		String endTime = JOptionPane.showInputDialog(null, "Give me an end time (ex: 3:10)");
 		//figure out where the colon in
@@ -32,5 +33,22 @@ public class Clock {
 	private static String str(int i) {
 		// TODO Auto-generated method stub
 		return null;
+=======
+		String answer = JOptionPane.showInputDialog(null, "Give me a start time (ex: 3:10)");
+		//figure out where the colon in
+		int colonInd = answer.indexOf(':');
+		//take start of string to where the colon is and make it an integer
+		int hours = Integer.parseInt(answer.substring(0, colonInd));
+		//take colon to end of string and make it an integer
+		int minutes = Integer.parseInt(answer.substring(colonInd + 1, answer.length()));
+		//check that it came in correctly
+		//System.out.println("Hours: " + hours);
+		//System.out.println("Minutes: " + minutes);
+		
+		
+		
+		
+		
+>>>>>>> branch 'master' of https://github.com/CSII2018-2019/u1l05-clock-math-woodsidel
 	}
 }
